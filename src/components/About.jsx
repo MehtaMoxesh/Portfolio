@@ -7,11 +7,11 @@ const About = () => {
       <div className='container mx-auto px-6 md:px-16 lg:px-24'>
         <h2 className='text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12'>About Me</h2>
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
-          <div className='flex justify-center mb-8 md:mb-0'>
+          <div className='flex justify-center mt-8 mb-8 md:mb-0'>
             <img 
               src={AboutImage} 
               alt="About Me" 
-              className='w-56 h-64 md:w-72 md:h-82 rounded object-cover shadow-lg transform transition-transform duration-500 hover:scale-105'
+              className='w-56 h-84 md:w-72 md:h-82 rounded object-cover shadow-lg transform transition-transform duration-500 hover:scale-105'
             />
           </div>
           <div className="flex-1">
