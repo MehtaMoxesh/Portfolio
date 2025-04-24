@@ -4,7 +4,7 @@ import SchoolLogo from '../assets/experimental-logo.jpg'; // Add your school log
 import CollegeLogo from '../assets/charusat-logo.png'; // Add your college logo
 import CompanyLogo from '../assets/dsu-logo.jpg'; // Add your company logo
 
-const Journey = () => {
+const MyJourney = () => {
   return (
     <div className='bg-black text-white py-20' id='journey'>
       <div className='container mx-auto px-8 md:px-16 lg:px-24'>
@@ -82,4 +82,4 @@ const Journey = () => {
   );
 };
 
-export default Journey;
+export default MyJourney;

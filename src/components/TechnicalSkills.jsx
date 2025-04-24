@@ -17,17 +17,17 @@ const TechnicalSkills = () => {
   ];
 
   return (
-    <div className='bg-black text-white py-20' id='skills'>
-      <div className='container mx-auto px-8 md:px-16 lg:px-24'>
-        <h2 className='text-4xl font-bold text-center mb-12'>Technical Skills</h2>
+    <div className='bg-black text-white py-16 md:py-20' id='skills'>
+      <div className='container mx-auto px-6 md:px-16 lg:px-24'>
+        <h2 className='text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12'>Technical Skills</h2>
         
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8'>
           {skillCategories.map((category, index) => (
             <div 
               key={index} 
-              className='bg-gray-800 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20'
+              className='bg-gray-800 rounded-lg p-5 md:p-6 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20'
             >
-              <h3 className='text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
+              <h3 className='text-lg md:text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
                 {category.category}
               </h3>
               
@@ -35,7 +35,7 @@ const TechnicalSkills = () => {
                 {category.skills.map((skill, idx) => (
                   <span 
                     key={idx} 
-                    className='text-sm px-3 py-1 bg-gray-700 rounded-full hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500 transition-all duration-300'
+                    className='text-xs md:text-sm px-2 md:px-3 py-1 bg-gray-700 rounded-full hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500 transition-all duration-300'
                   >
                     {skill}
                   </span>
