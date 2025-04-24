@@ -8,21 +8,21 @@ const Projects = () => {
       id: 1,
       title: "CareerMarg",
       description: "A web application designed for DEPSTAR.Charusat faculty to easily track student data for post-graduation, higher studies and placements with graphical analysis and branch comparisons.",
-      image: "src/assets/CareerMarg.jpg",
+      image: "/CareerMarg.jpg",
       technologies: ["React", "Node.js", "MySQL", "Express.js"]
     },
     {
       id: 2,
       title: "Restaurant Reservation System",
       description: "MERN stack web app for viewing restaurant details and booking tables online. Features responsive design, form validation, and secure backend API handling.",
-      image: "src/assets/RRS.jpg",
+      image: "/RRS.jpg",
       technologies: ["React", "Node.js", "MongoDB", "Express.js", "CORS", "Rest API"]
     },
     {
       id: 3,
       title: "JWT Authentication Dashboard",
       description: "Secure React-Based Website with JWT Authentication and Admin Dashboard. Includes core pages and a fully functional admin area with protected routes.",
-      image: "src/assets/JWT.png",
+      image: "/JWT.png",
       technologies: ["React", "Firebase", "Tailwind CSS"]
     }
   ];
